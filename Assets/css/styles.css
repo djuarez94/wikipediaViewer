@@ -1,0 +1,37 @@
+body {
+    background-color: #bbc3d1;
+}
+
+h1 {
+    font-family: Futura, sans-serif;
+}
+
+button {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+li {
+    background-color: #949ba6;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+li a {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: Futura, sans-serif;
+}
+
+li p {
+    color: #020202;;
+}
