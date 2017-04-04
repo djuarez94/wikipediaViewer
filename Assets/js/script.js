@@ -7,6 +7,7 @@ $('h1').delay(200).fadeTo(1000, 1);
 $('img').delay(800).fadeTo(1000, 1);
 $('input').delay(1500).fadeTo(1000, 1);
 $('button').delay(1500).fadeTo(1000, 1);
+$('.name').delay(2000).fadeTo(1000, 1);
 
   $('#search').click(function() {
     var searchTerm = $('#searchTerm').val();
