@@ -9,7 +9,16 @@ $('input').delay(1500).fadeTo(1000, 1);
 $('button').delay(1500).fadeTo(1000, 1);
 $('.name').delay(2000).fadeTo(1000, 1);
 
+  $('#slideButton').click(function() {
+    $( "#results" ).toggle( "slide" );
+    $('.alert').fadeIn(1000);
+    preventDefault();
+  });
+
+
+
   $('#search').click(function() {
+        $('.alert').fadeOut(500);
     var searchTerm = $('#searchTerm').val();
     var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm + "&format=json&callback=?";
 
