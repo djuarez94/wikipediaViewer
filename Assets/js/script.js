@@ -28,9 +28,6 @@ $('.name').delay(2000).fadeTo(1000, 1);
             async: false,
             dataType: "json",
             success: function(data) {
-              // console.log(data[1][0]);
-              // console.log(data[2][0]);
-              // console.log(data[3][0]);
               $('#results').html('');
               $('#results').fadeIn(750);
                     for(var i=0;i<data[1].length;i++) {
