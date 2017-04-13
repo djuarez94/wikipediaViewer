@@ -70,9 +70,35 @@ li p {
     }
 
     button.btn-primary {
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+
+    button.btn-danger {
+      font-size: 2em;
     }
 
     li a {font-size: 1.5em;}
     li p {font-size: 1em;}
 }
+
+@media only screen and (max-width: 700px) {
+    input#searchTerm.form-control {
+        height: 100px;
+        font-size: 2em;
+    }
+
+    button.btn-primary {
+        font-size: 2em;
+    }
+
+    button.btn-danger {
+      font-size: 2em;
+    }
+
+    li a {font-size: 1.5em;}
+    li p {font-size: 1em;}
+}
+
+
+
+
