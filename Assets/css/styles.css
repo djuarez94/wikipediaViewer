@@ -2,6 +2,10 @@ body {
     background-color: #bbc3d1;
 }
 
+.container {
+  width: 90%;
+}
+
 #results {
   display:none;
 }
